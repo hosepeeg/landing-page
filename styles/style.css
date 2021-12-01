@@ -13,6 +13,30 @@ button, h1, .header-content .header-description p, footer p, .quote em, .quote s
         0 0 0px #0542c7;
 }
 
+.info-image, .sign-up{
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #9005c7,
+                0 0 0.8rem #9005c7,
+                0 0 2.8rem #9005c7,
+                inset 0 0 1.3rem #9005c7;
+}
+
+.sign-up-button, a{
+    border-radius: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #9005c7,
+                0 0 0.8rem #9005c7,
+                0 0 2.8rem #9005c7;
+}
+
 p, h2, li, a{
     color: #fff;
     text-shadow:
@@ -36,8 +60,11 @@ p, h2, li, a{
 .header-image{
     width: 450px;
     height: 300px;
-    border-radius: 2rem;
+}
+
+button, .header-image{
     padding: 0.4em;
+    border-radius: 2rem;
     box-shadow: 0 0 .2rem #fff,
                 0 0 .2rem #fff,
                 0 0 2rem #0542c7,
@@ -80,12 +107,6 @@ a:visited, a:link, h1, .header-description p{
 }
 
 button{
-    border-radius: 2rem;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 .2rem #0542c7,
-                0 0 0.4rem #0542c7,
-                0 0 1.0rem #0542c7;
     color: white;
     background-color: #181818;
     padding: 8px;
@@ -148,14 +169,6 @@ h2{
 }
 
 .info-image{
-    border-radius: 2rem;
-    padding: 0.4em;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 2rem #9005c7,
-                0 0 0.8rem #9005c7,
-                0 0 2.8rem #9005c7,
-                inset 0 0 1.3rem #9005c7;
     height: 400px;
     width: 400px;
 }
@@ -211,13 +224,6 @@ h2{
     margin: 4rem;
     gap: 80px;
     padding: 32px;
-    border-radius: 2rem;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 2rem #9005c7,
-                0 0 0.8rem #9005c7,
-                0 0 2.8rem #9005c7,
-                inset 0 0 1.3rem #9005c7;
     min-width: 400px;
     max-width: 1000px;
 }
@@ -236,12 +242,6 @@ h2{
     padding: 6px;
     padding-left: 24px;
     padding-right: 24px;
-    border-radius: 2rem;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 .2rem #9005c7,
-                0 0 0.4rem #9005c7,
-                0 0 1.0rem #9005c7;
     min-width: 400px;
 }
 
