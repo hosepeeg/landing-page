@@ -10,3 +10,6 @@ pc.jpg - Christopher Farrugia - https://unsplash.com/@chrisfarr_
 xbox.jpg - Jakub Sisulak - https://unsplash.com/@jakub_si
 playstation.jpg - Luis Villasmil - https://unsplash.com/@villxsmil
 wii.jpg - Yasin Hasan - https://unsplash.com/@yasin
+
+# LIVE PAGE
+https://hosepeeg.github.io/landing-page/
